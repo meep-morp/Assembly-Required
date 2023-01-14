@@ -1,9 +1,6 @@
-extends Node
-
-class_name Tile
-
-var coords: Vector2
+extends StaticBody2D
 
 
-func _init(coordValue):
-	coords = coordValue
+func spawn(pos):
+	position = pos
+	show()
