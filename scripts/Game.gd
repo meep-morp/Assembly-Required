@@ -6,7 +6,8 @@ func new_game():
 	var l = lanes.instance()
 	l.setup(30)
 	add_child(l)
+	return l
 
 
 func _ready():
-	new_game()
+	var _l = new_game()
