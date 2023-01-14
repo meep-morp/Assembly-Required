@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/lanes.png-e564d3482a43f7af62b01c5db2cae123.stex"
+path="res://.import/markerplacethingy1.png-2378df66da7e58e93504dff1e294b92c.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/lanes.png"
-dest_files=[ "res://.import/lanes.png-e564d3482a43f7af62b01c5db2cae123.stex" ]
+source_file="res://assets/markerplacethingy1.png"
+dest_files=[ "res://.import/markerplacethingy1.png-2378df66da7e58e93504dff1e294b92c.stex" ]
 
 [params]
 
