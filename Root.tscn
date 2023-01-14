@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Lane.gd" type="Script" id=1]
+[ext_resource path="res://Player.gd" type="Script" id=2]
+
+[node name="Root" type="Node2D"]
+
+[node name="Player" type="AnimatedSprite" parent="."]
+script = ExtResource( 2 )
+
+[node name="Lanes" type="RigidBody2D" parent="."]
+script = ExtResource( 1 )
