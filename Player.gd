@@ -4,5 +4,5 @@ class_name Player
 
 var playerHealth: int
 
-_init():
+func _init():
 	playerHealth = 100
