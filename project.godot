@@ -9,24 +9,31 @@
 config_version=4
 
 _global_script_classes=[ {
-"base": "Sprite",
+"base": "RigidBody2D",
 "class": "Lanes",
 "language": "GDScript",
-"path": "res://Lane.gd"
+"path": "res://scripts/Lanes/index.gd"
 }, {
 "base": "AnimatedSprite",
 "class": "Player",
 "language": "GDScript",
-"path": "res://Player.gd"
+"path": "res://scripts/Player.gd"
+}, {
+"base": "Node",
+"class": "Tile",
+"language": "GDScript",
+"path": "res://scripts/Lanes/Tile.gd"
 } ]
 _global_script_class_icons={
 "Lanes": "",
-"Player": ""
+"Player": "",
+"Tile": ""
 }
 
 [application]
 
 config/name="Assembly Required"
+run/main_scene="res://Root.tscn"
 config/icon="res://icon.png"
 
 [gui]
